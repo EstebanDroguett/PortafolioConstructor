@@ -1,0 +1,24 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    padding-top: 4rem;
+    padding-bottom: 23rem;
+}
+
+.footer {
+    background-color: darkgoldenrod;
+    margin-top: auto;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 10px;
+}
