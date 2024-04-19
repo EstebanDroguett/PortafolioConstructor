@@ -1,11 +1,11 @@
-
+import Spinner from 'react-bootstrap/Spinner';
 
 export const Loading = () => {
     return (
         <>
-            <div className='spinner-grow text-info' role='status'>
-                <span className="visually-hidden">Cargando, espere por favor...</span>
-            </div>
+        <div className="spinner-wrapper">
+            <Spinner className="spinner-border" animation="border" variant="warning" />    
+        </div>
         </>
     )
 }

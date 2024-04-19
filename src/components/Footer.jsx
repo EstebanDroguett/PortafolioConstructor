@@ -1,5 +1,5 @@
 
-import { Container, Nav, Navbar, Row, Col } from 'react-bootstrap';
+import { Container, Nav, Row, Col } from 'react-bootstrap';
 import '../styles/footer.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -30,7 +30,7 @@ export const Footer = () => {
                     <Row className="text-center" xs={1} md={2}>
                         <Col>
                             <h6 className="text-uppercase">Menu</h6>
-                            <hr/>
+                            <hr />
                             <p>
                                 <Nav.Link as={Link} to="/">Home</Nav.Link>
                             </p>
@@ -40,7 +40,7 @@ export const Footer = () => {
                         </Col>
                         <Col>
                             <h6 className="text-uppercase">Contacto</h6>
-                            <hr/>
+                            <hr />
                             <p>
                                 <i icon="envelope" className=""></i> daraxxxxxxxxxxxxxxx@gmail.com
                             </p>
@@ -51,7 +51,7 @@ export const Footer = () => {
                     </Row>
                     <Row className="text-center" xs={1} md={1}>
                         <Col>
-                        <p>© 2024 Copyright: Darax</p>
+                            <p>© 2024 Copyright: Darax</p>
                         </Col>
                     </Row>
                 </Container>
