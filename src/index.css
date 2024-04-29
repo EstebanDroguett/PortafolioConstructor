@@ -14,17 +14,33 @@ body {
 
 .footer {
     background-color: darkgoldenrod;
-    margin-top: auto;
     color: white;
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
-    padding-top: 1rem;
+    padding-top: 1rem; /* Cambiado de "padding-top: 1rem" a "padding: 1rem 0" para proporcionar espacio uniforme en la parte superior e inferior del pie de página */
+    text-align: center; /* Alineación del texto al centro para que el contenido del pie de página esté centrado horizontalmente */
+    box-sizing: border-box; /* Agregado box-sizing para incluir el padding en el ancho del pie de página */
+    z-index: 999; /* Asegura que el pie de página esté por encima de otros elementos en la página */
 }
 
-.slider{
+.menu-footer {
+    background-color:#FABC3C ;
+    
+}
+
+.copyright-footer{
+    background-color: #EBB88A;
+    
+}
+
+.slider {
     height: 95vh;
+}
+
+.slider-color {
+    color: white;
 }
 
 .spinner-wrapper {
@@ -42,4 +58,45 @@ body {
 .spinner-border {
     height: 60px;
     width: 60px;
+}
+
+/* Estilos para el botón flotante */
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.my-float {
+    font-size: 40px;
+    margin-top: auto;
+}
+
+/* Estilos adicionales para darle un efecto de hover */
+.float:hover {
+    background-color: #128c7e;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.icon-attribute {
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.icon-attribute-nav {
+    color: white;
+    margin-left: 40px;
+    margin-right: 40px;
 }
